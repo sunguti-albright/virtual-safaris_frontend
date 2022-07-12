@@ -28,7 +28,7 @@ export class TouristProfileComponent implements OnInit {
     this.getprofile();
   }
   getprofile(){
-    this.http.get<any>('http://127.0.0.1:8000/api/UpdateUserProfile/').subscribe(
+    this.http.get<any>('http://127.0.0.1:8000/api//').subscribe(
       response => {
         console.log(response);
         this.profile = response;
