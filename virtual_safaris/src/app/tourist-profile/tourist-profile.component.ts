@@ -28,7 +28,7 @@ export class TouristProfileComponent implements OnInit {
     this.getprofile();
   }
   getprofile(){
-    this.http.get<any>('https://moiwork.herokuapp.com/api/UpdateUserProfile/').subscribe(
+    this.http.get<any>('http://127.0.0.1:8000/api/UpdateUserProfile/').subscribe(
       response => {
         console.log(response);
         this.profile = response;
@@ -36,7 +36,7 @@ export class TouristProfileComponent implements OnInit {
     );
   }
   filteredImages(value: any) {
-    const imageString = value.replace('https://moiwork.herokuapp.com/media/', 'https://moiwork.herokuapp.com/media/')
+    const imageString = value.replace('http://127.0.0.1:8000/media/', 'http://127.0.0.1:8000/media/')
     return imageString
   }
 }
