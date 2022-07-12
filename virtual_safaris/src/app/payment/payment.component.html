@@ -1,7 +1,11 @@
 <div class="container">
-  <div class="row">
     
       <form class="form-control" [formGroup]="paymentForm" (ngSubmit)="submit()">
+        <div class="col-md-12">
+          <h1>Pay To Book A Safari</h1>
+          <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F15%2FM-PESA_LOGO-01.svg%2F1200px-M-PESA_LOGO-01.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FM-Pesa&tbnid=J7B6rw6P7jW8pM&vet=12ahUKEwivn7qy9PL4AhUQjxoKHSEEDRIQMygAegUIARDVAQ..i&docid=z0E5DOOagw2X2M&w=1200&h=876&q=mpesa&ved=2ahUKEwivn7qy9PL4AhUQjxoKHSEEDRIQMygAegUIARDVAQ">
+          <br>
+        </div>
         <mat-form-field appearance="fill">
           <mat-label for="number">Enter phone number</mat-label>
           <input  formControlName="number" matInput /> </mat-form-field> 
@@ -15,5 +19,5 @@
    
   </div>
 
-</div>
+
 
