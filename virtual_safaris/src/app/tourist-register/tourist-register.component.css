@@ -1,0 +1,170 @@
+.error {
+    color: red;
+}
+
+form {
+    background-color: white;
+    border: solid rgb(32, 34, 32) 1px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 60px;
+    width: 100%;
+    margin-top: 200px;
+    align-items: center;
+}
+
+#sb {
+    background-color: #E2AA2E;
+    color: white;
+    margin-top: 20px;
+}
+
+#msub {
+    background-color: #E2AA2E;
+    color: white;
+    margin-top: 20px;
+}
+
+#ebtn {
+    background-color: white;
+    color: #E2AA2E;
+    border: solid #E2AA2E 1px;
+    margin-top: 20px;
+}
+
+#sn {
+    background-color: white;
+    color: #E2AA2E;
+    border: solid #E2AA2E 1px;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+#mclo {
+    background-color: white;
+    color: #E2AA2E;
+    border: solid #E2AA2E 1px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email] {
+    width: 65%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-color: rgb(32, 34, 32);
+    border-width: 0.1px;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    margin-left: 100px;
+}
+
+.buttn {
+    margin-left: 1000px;
+}
+
+.jobse {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.comp {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.modal-body {
+    margin-top: -200px;
+}
+
+.btn-pri {
+    background-color: #E2AA2E;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-sec {
+    background-color: white;
+    color: #E2AA2E;
+    border: solid #E2AA2E 1px;
+    margin-top: 20px;
+}
+
+.head {
+    text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email] {
+    width: 65%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-color: rgb(32, 34, 32);
+    border-width: 0.1px;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    margin-left: 100px;
+}
+
+#ebtn {
+    background-color: white;
+    color: #E2AA2E;
+    border: solid #E2AA2E 1px;
+    margin-top: 20px;
+}
+
+.pri1 {
+  background-color: #E2AA2E;
+  color: white;
+}
+
+.sec1 {
+  background-color: white;
+  color: #E2AA2E;
+}
+
+p,
+li {
+  font-size: 20px;
+  font-family: 'Krub', sans-serif;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'Krub', sans-serif;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Krub', sans-serif;
+  font-weight: bold;
+}
+
+
+a{
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #E2AA2E;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #E2AA2E;
+}
+
+label {
+  margin-left: 40px;
+  font-family: 'Krub', sans-serif;
+  font-weight: 500;
+}
