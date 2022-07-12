@@ -11,18 +11,18 @@ import {MatCardModule} from '@angular/material/card';
 import { PaymentComponent } from './payment/payment.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
-import { RegisterTouristComponent } from './register-tourist/register-tourist.component';
-import { LoginTouristComponent } from './login-tourist/login-tourist.component';
 import { TouristProfileComponent } from './tourist-profile/tourist-profile.component';
+import { TouristRegisterComponent } from './tourist-register/tourist-register.component';
+import { TouristLoginComponent } from './tourist-login/tourist-login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PaymentComponent,
     HomeComponent,
-    RegisterTouristComponent,
-    LoginTouristComponent,
     TouristProfileComponent,
+    TouristRegisterComponent,
+    TouristLoginComponent,
   ],
 
   imports: [
